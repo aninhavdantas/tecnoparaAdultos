@@ -209,17 +209,17 @@ li::before {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin: 2rem 0;
+    max-width: 100%;
+    height: auto;
 }
-
 .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
 }
+
 
 #accessibility-popup {
     position: fixed;
